@@ -34,7 +34,14 @@ input[type="radio"] {
 }
 #s-1:checked ~ .js-slider .js-slider_item.img-1,
 #s-2:checked ~ .js-slider .js-slider_item.img-2,
-#s-3:checked ~ .js-slider .js-slider_item.img-3 {
+#s-3:checked ~ .js-slider .js-slider_item.img-3,
+#s-4:checked ~ .js-slider .js-slider_item.img-4,
+#s-5:checked ~ .js-slider .js-slider_item.img-5,
+#s-6:checked ~ .js-slider .js-slider_item.img-6,
+#s-7:checked ~ .js-slider .js-slider_item.img-7,
+#s-8:checked ~ .js-slider .js-slider_item.img-8,
+#s-9:checked ~ .js-slider .js-slider_item.img-9,
+#s-10:checked ~ .js-slider .js-slider_item.img-10 {
   opacity: 1;
   visibility: visible;
   transform-origin: left center;
@@ -142,7 +149,14 @@ figcaption {
 }
 #s-1:checked ~ .js-slider .js-slider_nav .s-nav-1,
 #s-2:checked ~ .js-slider .js-slider_nav .s-nav-2,
-#s-3:checked ~ .js-slider .js-slider_nav .s-nav-3 {
+#s-3:checked ~ .js-slider .js-slider_nav .s-nav-3,
+#s-4:checked ~ .js-slider .js-slider_nav .s-nav-4,
+#s-5:checked ~ .js-slider .js-slider_nav .s-nav-5,
+#s-6:checked ~ .js-slider .js-slider_nav .s-nav-6,
+#s-7:checked ~ .js-slider .js-slider_nav .s-nav-7,
+#s-8:checked ~ .js-slider .js-slider_nav .s-nav-8,
+#s-9:checked ~ .js-slider .js-slider_nav .s-nav-9,
+#s-10:checked ~ .js-slider .js-slider_nav .s-nav-10{
   display: block;
 }
 .js-slider_indicator {
@@ -175,6 +189,13 @@ figcaption {
 }
 #s-1:checked ~ .js-slider .js-slider_indicator .indi-1:after,
 #s-2:checked ~ .js-slider .js-slider_indicator .indi-2:after,
-#s-3:checked ~ .js-slider .js-slider_indicator .indi-3:after {
+#s-3:checked ~ .js-slider .js-slider_indicator .indi-3:after, 
+#s-4:checked ~ .js-slider .js-slider_indicator .indi-4:after,
+#s-5:checked ~ .js-slider .js-slider_indicator .indi-5:after,
+#s-6:checked ~ .js-slider .js-slider_indicator .indi-6:after,
+#s-7:checked ~ .js-slider .js-slider_indicator .indi-7:after,
+#s-8:checked ~ .js-slider .js-slider_indicator .indi-8:after,
+#s-9:checked ~ .js-slider .js-slider_indicator .indi-9:after,
+#s-10:checked ~ .js-slider .js-slider_indicator .indi-10:after{
   transform: translate3d(-50%, -50%, 0) scale(2.5);
 }
